@@ -1,0 +1,59 @@
+Language model created by QuickLM on Wed Oct 18 05:50:24 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 2 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=13
+ngram 3=11
+
+\1-grams:
+-1.1761 </s> -0.3010
+-1.1761 <s> -0.2711
+-1.4771 a -0.2863
+-1.4771 but -0.2863
+-1.4771 go -0.2711
+-1.4771 i -0.2863
+-1.4771 is -0.2863
+-1.4771 limit -0.2711
+-1.4771 school -0.2711
+-1.4771 there -0.2863
+-1.1761 to -0.2711
+-1.4771 want -0.2711
+
+\2-grams:
+-0.6021 <s> but 0.0000
+-0.6021 <s> i 0.0000
+-0.3010 a limit 0.0000
+-0.3010 but there 0.0000
+-0.3010 go to -0.1761
+-0.3010 i want 0.0000
+-0.3010 is a 0.0000
+-0.3010 limit </s> -0.3010
+-0.3010 school </s> -0.3010
+-0.3010 there is 0.0000
+-0.6021 to go 0.0000
+-0.6021 to school 0.0000
+-0.3010 want to -0.1761
+
+\3-grams:
+-0.3010 <s> but there
+-0.3010 <s> i want
+-0.3010 a limit </s>
+-0.3010 but there is
+-0.3010 go to school
+-0.3010 i want to
+-0.3010 is a limit
+-0.3010 there is a
+-0.3010 to go to
+-0.3010 to school </s>
+-0.3010 want to go
+
+\end\
